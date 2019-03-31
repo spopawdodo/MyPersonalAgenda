@@ -3,7 +3,7 @@ package Person;
 import ContactData.ContactInformation;
 
 public class Boss extends Work {
-    String position;
+    private String position;
 
     public String getPosition() {
         return position;

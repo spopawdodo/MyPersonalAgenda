@@ -1,0 +1,29 @@
+Cerinte Proiect
+Crearea unei agende personale si gestiunea acesteia
+
+Structura claselor:
+
+- Clasa Main unde se vor apela functiile
+
+- Clasa Agenda ( clasa principala ) care cuprinde :
+ - Un array Tasks
+ - Un holder
+ - Un array de Contacte
+- Clasa Tasks pentru activitati si deadline-uri
+
+- Clasa Persoana ( Abstracta ) din care se vor mosteni:
+ - Clasa User pentru proprietarul agendei ( o aplicatie poate permite mai multe conturi simultan)
+ - Clasa FamilyMember pentru relatiile de familie ( contine un camp in plus "TypeOfRelative"
+ - Clasa Work ( Abstracta ) pentru persoanele de la serviciu (contine in plus un camp cu locul de munca):
+   - Clasa Colleague pentru colegii de birou
+   - Clasa Boss pentru sefi si superiori
+   - Clasa Client pentru clienti
+
+- Clase Servicies ( pentru vectorii de Person si Tasks din clasa Agenda) permit:
+    sortari ( dupa nume, data) ( acestea au la randul lor alte clase pentru implementarea comparatorului)
+    adaugare
+    eliminare
+
+- Alte Clase : Contact Data ( este parte din clasa Person )
+ - in continuarea proiectului intentionez sa-mi fac si o clasa Events care ar cuprinde la randul ei un astfel de camp
+

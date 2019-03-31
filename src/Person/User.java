@@ -3,7 +3,7 @@ package Person;
 import ContactData.ContactInformation;
 
 public class User extends Person {
-    String adress;
+    private String adress;
     public User (String name, String surname, String birthday, ContactInformation contact, String adress){
         super (name, surname, birthday, contact);
         this.adress = adress;

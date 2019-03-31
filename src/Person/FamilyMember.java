@@ -3,7 +3,7 @@ package Person;
 import ContactData.ContactInformation;
 
 public class FamilyMember extends Person {
-    String typeOfRelative;
+    private String typeOfRelative;
 
     public String getTypeOfRelative() {
         return typeOfRelative;

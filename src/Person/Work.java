@@ -3,7 +3,7 @@ package Person;
 import ContactData.ContactInformation;
 
 public abstract class Work extends Person {
-    private String workplace;
+    protected String workplace;
 
     public String getWorkplace() {
         return workplace;

@@ -3,8 +3,8 @@ package Person;
 import ContactData.ContactInformation;
 
 public class Client extends Work {
-    String company;
-    String position;
+    private String company;
+    private String position;
 
     public String getCompany() {
         return company;
