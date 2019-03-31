@@ -24,18 +24,29 @@ public class TaskServices {
     public void removeTask(Agenda agenda, Tasks task)
     {
         int size = agenda.getTasksArr().length;
-        Tasks[] tasksArr1 = new Tasks[size- 1];
-        int j = 0;
-        for ( int i = 0; i < size; i++){
-            if (Objects.equals(task.getTask(), agenda.getTasksArr()[i].getTask()) &&
-                    Objects.equals(task.getDeadLine(), agenda.getTasksArr()[i].getDeadLine())){
-                continue;
-            } else {
+        Tasks[] tasksArr1 = new Tasks[size - 1];
+        int j = 0, i;
+        for ( i = 0; i < size - 1; i++){
+            if (!(Objects.equals(task.getTask(), agenda.getTasksArr()[i].getTask()) &&
+                    Objects.equals(task.getDeadLine(), agenda.getTasksArr()[i].getDeadLine()))){
                 tasksArr1[j] = agenda.getTasksArr()[i];
                 j++;
             }
         }
-        agenda.setTasksArr(tasksArr1);
+        if ( i == j){
+            if ( (Objects.equals(task.getTask(), agenda.getTasksArr()[size-1].getTask()) &&
+                    Objects.equals(task.getDeadLine(), agenda.getTasksArr()[size-1].getDeadLine()))) {
+                agenda.setTasksArr(tasksArr1);
+            }
+            else
+                System.out.println("Task not found!");
+        }
+        else{
+            tasksArr1[size-2] = agenda.getTasksArr()[size-1];
+            agenda.setTasksArr(tasksArr1);
+
+        }
+
     }
     public void sortByDeadLine( Agenda agenda)
     {

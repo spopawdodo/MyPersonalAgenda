@@ -27,5 +27,6 @@ public class FamilyMember extends Person {
     public void showPerson() {
         System.out.println(typeOfRelative);
         super.showPerson();
+
     }
 }

@@ -23,6 +23,22 @@ public class Agenda {
         this.holder = user;
     }
 
+    public User getHolder() {
+        return holder;
+    }
+
+    public void setHolder(User holder) {
+        this.holder = holder;
+    }
+
+    public Person[] getContacts() {
+        return contacts;
+    }
+
+    public void setContacts(Person[] contacts) {
+        this.contacts = contacts;
+    }
+
     public Agenda(User user, Tasks[] tasks, Person[] contacts){
         this.holder = user;
         this.tasksArr = tasks;

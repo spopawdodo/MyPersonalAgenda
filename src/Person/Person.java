@@ -36,25 +36,13 @@ public abstract class Person {
         return contact;
     }
     public void showPerson(){
-        System.out.println("Nume : "+name+
-                "\nPrenume : "+surname+
-                "\nBirthday : "+birthday);
+        System.out.println("Name : "+name+ " "+surname+
+                "\nBirthday : "+birthday+ "\n");
 
     }
 
     public void setContact(ContactInformation contact) {
         this.contact = contact;
-    }
-
-    public Person(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
-    }
-
-    public Person(String name, String surname, String birthday) {
-        this.birthday = birthday;
-        this.name = name;
-        this.surname = surname;
     }
 
     public Person(String name, String surname, String birthday, ContactInformation contactInformation) {
