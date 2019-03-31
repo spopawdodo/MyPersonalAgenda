@@ -1,20 +1,19 @@
 package Tasks;
-import DateType.Date;
 
 import java.util.regex.*;
 
 public class Tasks {
     private boolean priority;
     private String task;
-    private Date deadLine;
+    private String deadLine;
 
-    public Tasks(boolean priority, String task, Date deadLine) {
+    public Tasks(boolean priority, String task, String deadLine){
         this.priority = priority;
         this.task = task;
         this.deadLine = deadLine;
     }
 
-    public Tasks(String task, Date deadLine) {
+    public Tasks(String task, String deadLine) {
         this.priority = false;
         this.task = task;
         this.deadLine = deadLine;
@@ -36,15 +35,12 @@ public class Tasks {
         this.task = task;
     }
 
-    public Date getDeadLine() {
+    public String getDeadLine() {
         return deadLine;
     }
 
-    public void setDeadLine(Date deadLine) {
+    public void setDeadLine(String deadLine) {
         this.deadLine = deadLine;
     }
 
-    public void setDeadLine(String deadLine){
-        this.deadLine = new Date(deadLine);
-    }
 }

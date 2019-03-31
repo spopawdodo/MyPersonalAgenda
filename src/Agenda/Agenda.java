@@ -2,12 +2,8 @@ package Agenda;
 
 import Person.Person;
 import Person.User;
-import Servicies.PersonServicies;
 import Servicies.TaskServices;
 import Tasks.Tasks;
-
-import java.util.Arrays;
-import java.util.Objects;
 
 public class Agenda {
     private Tasks[] tasksArr;
@@ -27,25 +23,33 @@ public class Agenda {
         this.holder = user;
     }
 
-    public Agenda(User user, Tasks[] tasks){
+    public Agenda(User user, Tasks[] tasks, Person[] contacts){
         this.holder = user;
         this.tasksArr = tasks;
+        this.contacts = contacts;
     }
 
     public void showAgenda(){
         System.out.println("Here are your personal details :");
         this.showHolder();
-        System.out.println("Here are your tasks : ");
+        System.out.println("\nHere are your tasks : ");
         this.showTasks();
-        System.out.println("Here are your contacts : ");
+        System.out.println("\nHere are your contacts : ");
+        this.showContacts();
+        System.out.println();
     }
 
     public void showHolder(){
-        new PersonServicies().showPerson(this.holder);
+        holder.showPerson();
     }
 
     public void showTasks(){
         new TaskServices().showTasks(this);
+    }
+
+    public void showContacts(){
+        for ( int i = 0; i < contacts.length; i++)
+            contacts[i].showPerson();
     }
 
 

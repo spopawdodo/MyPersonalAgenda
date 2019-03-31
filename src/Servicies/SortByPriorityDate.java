@@ -13,8 +13,8 @@ public class SortByPriorityDate implements Comparator<Tasks> {
         if (priority1 == true) return -1;
         if (priority2 == true) return 1;
 
-        String date1[] = a.getDeadLine().getDate().split("[.]");
-        String date2[] = b.getDeadLine().getDate().split("[.]");
+        String date1[] = a.getDeadLine().split("[.]");
+        String date2[] = b.getDeadLine().split("[.]");
 
 
         for ( int i = date1.length - 1; i >= 0 ; i--)

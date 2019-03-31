@@ -1,12 +1,11 @@
 package Person;
 
 import ContactData.ContactInformation;
-import DateType.Date;
 
 public abstract class Person {
     protected String name;
     protected String surname;
-    protected Date birthday;
+    protected String birthday;
     protected ContactInformation contact;
 
     public String getName() {
@@ -25,16 +24,22 @@ public abstract class Person {
         this.surname = surname;
     }
 
-    public Date getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 
     public ContactInformation getContact() {
         return contact;
+    }
+    public void showPerson(){
+        System.out.println("Nume : "+name+
+                "\nPrenume : "+surname+
+                "\nBirthday : "+birthday);
+
     }
 
     public void setContact(ContactInformation contact) {
@@ -46,13 +51,13 @@ public abstract class Person {
         this.surname = surname;
     }
 
-    public Person(String name, String surname, Date birthday) {
+    public Person(String name, String surname, String birthday) {
         this.birthday = birthday;
         this.name = name;
         this.surname = surname;
     }
 
-    public Person(String name, String surname, Date birthday, ContactInformation contactInformation) {
+    public Person(String name, String surname, String birthday, ContactInformation contactInformation) {
         this.birthday = birthday;
         this.name = name;
         this.surname = surname;

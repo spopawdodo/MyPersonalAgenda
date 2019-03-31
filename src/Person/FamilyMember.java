@@ -1,7 +1,6 @@
 package Person;
 
 import ContactData.ContactInformation;
-import DateType.Date;
 
 public class FamilyMember extends Person {
     String typeOfRelative;
@@ -16,11 +15,17 @@ public class FamilyMember extends Person {
 
     public FamilyMember(String name,
                         String surname,
-                        Date birthday,
+                        String birthday,
                         ContactInformation contact,
                         String typeOfRelative) {
 
         super (name, surname, birthday, contact);
         this.typeOfRelative = typeOfRelative;
+    }
+
+    @Override
+    public void showPerson() {
+        System.out.println(typeOfRelative);
+        super.showPerson();
     }
 }

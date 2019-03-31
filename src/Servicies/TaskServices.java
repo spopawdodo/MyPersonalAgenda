@@ -70,7 +70,7 @@ public class TaskServices {
         for ( int i = 0 ; i < sizeOfTasks; i++){
             if (agenda.getTasksArr()[i].isPriority())
                 System.out.print("Important ! ");
-            System.out.println(agenda.getTasksArr()[i].getTask() + " " +agenda.getTasksArr()[i].getDeadLine().getDate());
+            System.out.println(agenda.getTasksArr()[i].getTask() + " " +agenda.getTasksArr()[i].getDeadLine());
         }
 
     }
