@@ -33,8 +33,8 @@ public class Main {
 
         service.sortByPriority(agenda1);
 
-        service.showTasks(agenda1);
-
+        //service.showTasks(agenda1);
+        agenda1.showAgenda();
 
     }
 }

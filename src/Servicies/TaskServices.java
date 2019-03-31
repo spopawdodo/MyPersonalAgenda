@@ -40,7 +40,7 @@ public class TaskServices {
     public void sortByDeadLine( Agenda agenda)
     {
         int size = agenda.getTasksArr().length;
-        Tasks[] sortedTasks = new Tasks[size];
+        Tasks[] sortedTasks;
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByDate());
         agenda.setTasksArr(sortedTasks);
@@ -50,7 +50,7 @@ public class TaskServices {
     public Tasks[] returnSortedByDeadLine( Agenda agenda)
     {
         int size = agenda.getTasksArr().length;
-        Tasks[] sortedTasks = new Tasks[size];
+        Tasks[] sortedTasks;
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByDate());
         return sortedTasks;
@@ -58,7 +58,7 @@ public class TaskServices {
 
     public void sortByPriority (Agenda agenda){
         int size = agenda.getTasksArr().length;
-        Tasks[] sortedTasks = new Tasks[size];
+        Tasks[] sortedTasks;
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByPriorityDate());
     }
@@ -68,7 +68,9 @@ public class TaskServices {
         int sizeOfTasks = agenda.getTasksArr().length;
 
         for ( int i = 0 ; i < sizeOfTasks; i++){
-            System.out.println(agenda.getTasksArr()[i].isPriority()+ " "+agenda.getTasksArr()[i].getTask() + " " +agenda.getTasksArr()[i].getDeadLine().getDate());
+            if (agenda.getTasksArr()[i].isPriority())
+                System.out.print("Important ! ");
+            System.out.println(agenda.getTasksArr()[i].getTask() + " " +agenda.getTasksArr()[i].getDeadLine().getDate());
         }
 
     }
