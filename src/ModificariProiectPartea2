@@ -1,0 +1,11 @@
+MODIFICARI ALE PROIECTULUI IN ETAPA A 2A:
+
+1. Se renunta la utilizarea claselor Colleague , Boss ( acestea avand aceleasi tipuri de date si aceleasi functionalitati)
+   in locul acestora se va folosi clasa Work ( care s-a transformat din clasa abstracta intr-una normala)
+
+   Clasa Client va extinde in continuare clasa Work, dar numai cu variabila Company.
+
+2. S-a mai adaugat o metoda de a modifica ContactData a unei persoane (cu stringuri, pe langa cea care folosea o instanta a clasei ContactInfo).
+
+
+

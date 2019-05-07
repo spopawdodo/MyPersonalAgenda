@@ -14,8 +14,7 @@ public class Colleague extends Work{
     }
 
     public Colleague(String name, String surname, String birthday, ContactInformation contactInformation, String workplace, String position) {
-        super(name, surname, birthday, contactInformation, workplace);
-        this.position = position;
+        super(name, surname, birthday, contactInformation, workplace, position);
     }
 
     @Override

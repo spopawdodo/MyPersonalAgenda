@@ -40,6 +40,9 @@ public abstract class Person {
                 "\nBirthday : "+birthday+ "\n");
 
     }
+    public void setContact(String cellphoneNumber, String homeNumber, String mailAdress){
+        this.contact.setContactInformation(cellphoneNumber, homeNumber, mailAdress);
+    }
 
     public void setContact(ContactInformation contact) {
         this.contact = contact;

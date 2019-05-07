@@ -4,7 +4,6 @@ import ContactData.ContactInformation;
 
 public class Client extends Work {
     private String company;
-    private String position;
 
     public String getCompany() {
         return company;
@@ -14,14 +13,6 @@ public class Client extends Work {
         this.company = company;
     }
 
-    public String getPosition() {
-        return position;
-    }
-
-    public void setPosition(String position) {
-        this.position = position;
-    }
-
     @Override
     public void showPerson() {
         System.out.println(position + " at "+company);
@@ -29,8 +20,7 @@ public class Client extends Work {
     }
 
     public Client(String name, String surname, String birthday, ContactInformation contactInformation, String workplace, String company, String position) {
-        super(name, surname, birthday, contactInformation, workplace);
+        super(name, surname, birthday, contactInformation, workplace, position);
         this.company = company;
-        this.position = position;
     }
 }

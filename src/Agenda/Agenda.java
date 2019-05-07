@@ -2,6 +2,8 @@ package Agenda;
 
 import Person.Person;
 import Person.User;
+import Person.FamilyMember;
+import Person.Work;
 import Servicies.TaskServices;
 import Tasks.Tasks;
 
@@ -9,6 +11,8 @@ public class Agenda {
     private Tasks[] tasksArr;
     private User holder;
     private Person[] contacts;
+    private FamilyMember[] familyMembers;
+    private Work[] workContacts;
 
     public Tasks[] getTasksArr() {
         return tasksArr;

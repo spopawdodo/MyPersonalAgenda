@@ -34,4 +34,19 @@ public class ContactInformation {
     public void setMailAdress(String mailAdress) {
         this.mailAdress = mailAdress;
     }
+
+    @Override
+    public String toString() {
+        return "ContactInformation{" +
+                "cellphoneNumber='" + cellphoneNumber + '\'' +
+                ", homeNumber='" + homeNumber + '\'' +
+                ", mailAdress='" + mailAdress + '\'' +
+                '}';
+    }
+
+    public void setContactInformation(String cellphoneNumber, String homeNumber, String mailAdress){
+        setCellphoneNumber(cellphoneNumber);
+        setHomeNumber(homeNumber);
+        setMailAdress(mailAdress);
+    }
 }
