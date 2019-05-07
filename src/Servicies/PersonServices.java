@@ -12,16 +12,28 @@ public class PersonServices {
      * Add Person
      * Remove Person
      */
-    public void addPerson(Agenda agenda, Person person){
-        int size = agenda.getContacts().length;
+    public static void addPerson(Agenda agenda, Person person){
+        int size = 0;
+        if ( agenda.getContacts() != null){
+             size = agenda.getContacts().length;
+        }
         Person[] newContacts = new Person[size + 1];
-        for ( int i = 0; i < size; i++)
-            newContacts[i] = agenda.getContacts()[i];
-        newContacts[size] = person;
+        if ( size == 0){
+            newContacts[0] = person;
+        }
+        else {
+            for (int i = 0; i < size; i++)
+                newContacts[i] = agenda.getContacts()[i];
+            newContacts[size] = person;
+        }
         agenda.setContacts(newContacts);
+
+        AuditServices.writeAuditCsv("addPerson");
+
+
     }
 
-    public void removePerson(Agenda agenda, Person person)
+    public static void removePerson(Agenda agenda, Person person)
     {
         int size = agenda.getContacts().length;
         Person[] newContacts = new Person[size - 1];
@@ -45,12 +57,16 @@ public class PersonServices {
             newContacts[size-2] = agenda.getContacts()[size -1];
             agenda.setContacts(newContacts);
         }
+        AuditServices.writeAuditCsv("removePerson");
+
     }
 
-    public void sortByName(Agenda agenda){
+    public static void sortByName(Agenda agenda){
         int size = agenda.getContacts().length;
         Person[] newPerson = agenda.getContacts();
         Arrays.sort(newPerson, new SortByName());
         agenda.setContacts(newPerson);
+        AuditServices.writeAuditCsv("sortByName");
+
     }
 }

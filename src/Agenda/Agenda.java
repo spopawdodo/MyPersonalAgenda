@@ -14,6 +14,22 @@ public class Agenda {
     private FamilyMember[] familyMembers;
     private Work[] workContacts;
 
+    public FamilyMember[] getFamilyMembers() {
+        return familyMembers;
+    }
+
+    public void setFamilyMembers(FamilyMember[] familyMembers) {
+        this.familyMembers = familyMembers;
+    }
+
+    public Work[] getWorkContacts() {
+        return workContacts;
+    }
+
+    public void setWorkContacts(Work[] workContacts) {
+        this.workContacts = workContacts;
+    }
+
     public Tasks[] getTasksArr() {
         return tasksArr;
     }
@@ -43,10 +59,29 @@ public class Agenda {
         this.contacts = contacts;
     }
 
+    public Agenda() {
+    }
+
     public Agenda(User user, Tasks[] tasks, Person[] contacts){
         this.holder = user;
         this.tasksArr = tasks;
         this.contacts = contacts;
+    }
+
+    public Agenda(User user, Tasks[] tasks, FamilyMember[] familyMembers, Work[] workContacts){
+        this.holder = user;
+        this.tasksArr = tasks;
+        this.familyMembers = familyMembers;
+        this.workContacts = workContacts;
+        this.setContacts(familyMembers);
+    }
+
+    public Agenda(User user, Tasks[] tasks, FamilyMember[] familyMembers, Work[] workContacts, Person[] people){
+        this.holder = user;
+        this.tasksArr = tasks;
+        this.familyMembers = familyMembers;
+        this.workContacts = workContacts;
+        this.contacts = people;
     }
 
     public void showAgenda(){
@@ -64,7 +99,7 @@ public class Agenda {
     }
 
     public void showTasks(){
-        new TaskServices().showTasks(this);
+        TaskServices.showTasks(this);
     }
 
     public void showContacts(){

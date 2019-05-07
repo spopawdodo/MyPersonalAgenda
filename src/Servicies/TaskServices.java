@@ -6,24 +6,35 @@ import Tasks.Tasks;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class TaskServices {
+public  class TaskServices {
 
-    public void addTask(Agenda agenda, Tasks newTask)
-    {
-        int size = agenda.getTasksArr().length;
-        Tasks[] tasksArr1 = new Tasks[size + 1];
-
-        for ( int i = 0; i < size; i++){
-            tasksArr1[i] = agenda.getTasksArr()[i];
+    public static void addTask(Agenda agenda, Tasks newTask)
+    {   int size = 0;
+        if (agenda.getTasksArr() != null){
+            size = agenda.getTasksArr().length;
         }
-
-        tasksArr1[size] = newTask;
+        Tasks[] tasksArr1 = new Tasks[size + 1];
+        if ( size == 0){
+            tasksArr1[0] = newTask;
+        }
+        else {
+            for ( int i = 0; i < size; i++){
+                tasksArr1[i] = agenda.getTasksArr()[i];
+            }
+            tasksArr1[size] = newTask;
+        }
         agenda.setTasksArr(tasksArr1);
+        AuditServices.writeAuditCsv("addTask");
+
     }
 
-    public void removeTask(Agenda agenda, Tasks task)
+    public static void removeTask(Agenda agenda, Tasks task)
     {
         int size = agenda.getTasksArr().length;
+        if (size == 0 ){
+            System.out.println("Task not found");
+            return;
+        }
         Tasks[] tasksArr1 = new Tasks[size - 1];
         int j = 0, i;
         for ( i = 0; i < size - 1; i++){
@@ -46,9 +57,11 @@ public class TaskServices {
             agenda.setTasksArr(tasksArr1);
 
         }
+        AuditServices.writeAuditCsv("removeTask");
+
 
     }
-    public void sortByDeadLine( Agenda agenda)
+    public static void sortByDeadLine( Agenda agenda)
     {
         int size = agenda.getTasksArr().length;
         Tasks[] sortedTasks;
@@ -56,26 +69,36 @@ public class TaskServices {
         Arrays.sort(sortedTasks, new SortByDate());
         agenda.setTasksArr(sortedTasks);
         System.out.println("Sorted the deadline array ! \n");
+        AuditServices.writeAuditCsv("sortByDeadLine");
+
     }
 
-    public Tasks[] returnSortedByDeadLine( Agenda agenda)
+    public static Tasks[] returnSortedByDeadLine( Agenda agenda)
     {
         int size = agenda.getTasksArr().length;
         Tasks[] sortedTasks;
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByDate());
+        AuditServices.writeAuditCsv("returnSortedByDeadline");
+
         return sortedTasks;
     }
 
-    public void sortByPriority (Agenda agenda){
+    public static void sortByPriority (Agenda agenda){
         int size = agenda.getTasksArr().length;
         Tasks[] sortedTasks;
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByPriorityDate());
+        AuditServices.writeAuditCsv("sortByPriority");
+
     }
 
-    public void showTasks (Agenda agenda)
+    public static void showTasks (Agenda agenda)
     {
+        if (agenda.getTasksArr() == null){
+            System.out.println("Empty Task Array !");
+            return;
+        }
         int sizeOfTasks = agenda.getTasksArr().length;
 
         for ( int i = 0 ; i < sizeOfTasks; i++){
@@ -83,6 +106,6 @@ public class TaskServices {
                 System.out.print("Important ! ");
             System.out.println(agenda.getTasksArr()[i].getTask() + " " +agenda.getTasksArr()[i].getDeadLine());
         }
-
+        AuditServices.writeAuditCsv("showTasks");
     }
 }
