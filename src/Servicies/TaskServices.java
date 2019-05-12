@@ -2,17 +2,22 @@ package Servicies;
 
 import Agenda.Agenda;
 import Tasks.Tasks;
+import com.sun.security.auth.NTUserPrincipal;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-public  class TaskServices {
+public class TaskServices {
 
     public static void addTask(Agenda agenda, Tasks newTask)
-    {   int size = 0;
-        if (agenda.getTasksArr() != null){
+    {
+        int size = 0;
+        try{
             size = agenda.getTasksArr().length;
+        } catch (NullPointerException e){
+            System.out.println("ERROR in finding the taskArray! ");
         }
+
         Tasks[] tasksArr1 = new Tasks[size + 1];
         if ( size == 0){
             tasksArr1[0] = newTask;
@@ -30,7 +35,14 @@ public  class TaskServices {
 
     public static void removeTask(Agenda agenda, Tasks task)
     {
-        int size = agenda.getTasksArr().length;
+        int size = 0;
+
+        try{
+            size = agenda.getTasksArr().length;
+        } catch (NullPointerException e){
+            System.out.println("ERROR in finding the taskArray! ");
+        }
+
         if (size == 0 ){
             System.out.println("Task not found");
             return;
@@ -61,22 +73,43 @@ public  class TaskServices {
 
 
     }
+
+    /// DEADLINE SORT
     public static void sortByDeadLine( Agenda agenda)
     {
-        int size = agenda.getTasksArr().length;
+        AuditServices.writeAuditCsv("sortByDeadLine");
+        int size = 0;
+        try{
+            size = agenda.getTasksArr().length;
+        } catch (NullPointerException e){
+            System.out.println("ERROR in finding the taskArray! ");
+        }
+        if (size == 0){
+            System.out.println("No tasks to sort");
+            return;
+        }
         Tasks[] sortedTasks;
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByDate());
         agenda.setTasksArr(sortedTasks);
         System.out.println("Sorted the deadline array ! \n");
-        AuditServices.writeAuditCsv("sortByDeadLine");
 
     }
 
     public static Tasks[] returnSortedByDeadLine( Agenda agenda)
     {
-        int size = agenda.getTasksArr().length;
-        Tasks[] sortedTasks;
+        Tasks[] sortedTasks = new Tasks[]{};
+        int size = 0;
+        try{
+            size = agenda.getTasksArr().length;
+        } catch (NullPointerException e){
+            System.out.println("ERROR in finding the taskArray! ");
+        }
+        if (size == 0){
+            System.out.println("No tasks to sort");
+            return sortedTasks;
+        }
+
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByDate());
         AuditServices.writeAuditCsv("returnSortedByDeadline");
@@ -84,27 +117,66 @@ public  class TaskServices {
         return sortedTasks;
     }
 
+    /// PRORITY SORT
     public static void sortByPriority (Agenda agenda){
-        int size = agenda.getTasksArr().length;
+        int size = 0;
+        try{
+            size = agenda.getTasksArr().length;
+        } catch (NullPointerException e){
+            System.out.println("ERROR in finding the taskArray! ");
+        }
+        if (size == 0){
+            System.out.println("No tasks to sort");
+            return;
+        }
         Tasks[] sortedTasks;
         sortedTasks = agenda.getTasksArr();
         Arrays.sort(sortedTasks, new SortByPriorityDate());
+        agenda.setTasksArr(sortedTasks);
         AuditServices.writeAuditCsv("sortByPriority");
 
     }
 
+    public static Tasks[] returnsSortedByPriority (Agenda agenda){
+        int size = 0;
+        Tasks[] sortedTasks = new Tasks[]{};
+        try{
+            size = agenda.getTasksArr().length;
+        } catch (NullPointerException e){
+            System.out.println("ERROR in finding the taskArray! ");
+        }
+        if (size == 0){
+            System.out.println("No tasks to sort");
+            return sortedTasks;
+        }
+
+        sortedTasks = agenda.getTasksArr();
+        Arrays.sort(sortedTasks, new SortByPriorityDate());
+
+        AuditServices.writeAuditCsv("returnSortedByPriority");
+
+        return sortedTasks;
+
+    }
+
+    //// SHOW
     public static void showTasks (Agenda agenda)
     {
         if (agenda.getTasksArr() == null){
             System.out.println("Empty Task Array !");
             return;
         }
+        Tasks[] array = agenda.getTasksArr();
         int sizeOfTasks = agenda.getTasksArr().length;
 
         for ( int i = 0 ; i < sizeOfTasks; i++){
-            if (agenda.getTasksArr()[i].isPriority())
+            if (array[i].isPriority())
                 System.out.print("Important ! ");
-            System.out.println(agenda.getTasksArr()[i].getTask() + " " +agenda.getTasksArr()[i].getDeadLine());
+
+            //System.out.println(agenda.getTasksArr()[i].getTask() + " " +agenda.getTasksArr()[i].getDeadLine());
+
+            System.out.println(array[i].toString());
+
         }
         AuditServices.writeAuditCsv("showTasks");
     }

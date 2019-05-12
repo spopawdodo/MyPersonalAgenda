@@ -4,6 +4,7 @@ import Agenda.Agenda;
 import Person.Person;
 import Person.User;
 import Person.Work;
+import Person.Client;
 import Person.FamilyMember;
 import Servicies.PersonServices;
 import Servicies.TaskServices;
@@ -18,11 +19,9 @@ import static constants.ConstantValues.defaultData;
 
 public class LoadCsvData {
     private static final String COMMA_DELIMITER = ",";
-    private static PersonServices pers;
 
     public static void loadCsvFamilyData(String fileName, Agenda agenda){
         BufferedReader fileReader = null;
-        FamilyMember[] loadedFamily = new FamilyMember[2];
 
         try {
             String line = "";
@@ -35,8 +34,8 @@ public class LoadCsvData {
                 String[] tokens = line.split(COMMA_DELIMITER);
                 if (tokens.length > 0){
                     FamilyMember familyMember = new FamilyMember(tokens[0], tokens[1],tokens[2], defaultData, tokens[3]);
-                    loadedFamily[i] = familyMember;
-                    pers.addPerson(agenda, familyMember);
+                    PersonServices.addFamilyMember(agenda, familyMember);
+                    PersonServices.addPerson(agenda, familyMember);
                 }
                 i++;
             }
@@ -52,7 +51,7 @@ public class LoadCsvData {
                 e.printStackTrace();
             }
         }
-        agenda.setFamilyMembers(loadedFamily);
+
     }
 
     public static void loadCsvUserData(String fileName, Agenda agenda){
@@ -69,11 +68,7 @@ public class LoadCsvData {
                 String[] tokens = line.split(COMMA_DELIMITER);
                 if (tokens.length > 0){
                       User user = new User(tokens[0], tokens[1], tokens[2], defaultData, tokens[3]);
-                      /*loadedUser[i].setName(tokens[0]);
-                      loadedUser[i].setSurname(tokens[1]);
-                      loadedUser[i].setBirthday(tokens[2]);
-                      loadedUser[i].setContact(defaultData);
-                      loadedUser[i].setAdress(tokens[3]); */
+
                       loadedUser[i] = user;
                 }
                 i++;
@@ -95,7 +90,7 @@ public class LoadCsvData {
 
     public static void loadCsvTasks(String fileName, Agenda agenda){
         BufferedReader fileReader = null;
-        //Tasks[] loadedTasks = new Tasks[20];
+
         try {
 
             String line = "";
@@ -114,7 +109,7 @@ public class LoadCsvData {
                     else
                         task1.setPriority(false);
 
-                    //TaskServices.addTask(agenda, task1);
+                    TaskServices.addTask(agenda, task1);
                 }
                 i++;
             }
@@ -135,7 +130,7 @@ public class LoadCsvData {
 
     public static void loadCsvWork(String fileName, Agenda agenda){
         BufferedReader fileReader = null;
-        //Work[] loadedWork = new Work[];
+
         try {
 
             String line = "";
@@ -147,17 +142,21 @@ public class LoadCsvData {
             while((line = fileReader.readLine()) != null){
                 String[] tokens = line.split(COMMA_DELIMITER);
                 if (tokens.length > 0){
-                    /*loadedWork[i].setName(tokens[0]);
-                    loadedWork[i].setSurname(tokens[1]);
-                    loadedWork[i].setBirthday(tokens[2]);
-                    loadedWork[i].setPosition(tokens[3]);
-                    loadedWork[i].setWorkplace(tokens[4]);
-                    loadedWork[i].setContact(defaultData);
-                    */
+                    if(tokens.length == 5){
+                        Work work = new Work(tokens[0], tokens[1], tokens[2], defaultData, tokens[3], tokens[4]);
+                        PersonServices.addWork(agenda, work);
+                        PersonServices.addPerson(agenda, work);
+                    }
+                    else if(tokens.length == 6){
+                        Client work = new Client(tokens[0], tokens[1], tokens[2], defaultData, tokens[3], tokens[4], tokens[5]);
+                        PersonServices.addWork(agenda, work);
+                        PersonServices.addPerson(agenda, work);
+                    }
+                    else{
+                        System.out.println("Invalid input!");
+                        continue;
+                    }
 
-                    Work work = new Work(tokens[0], tokens[1], tokens[2], defaultData, tokens[3], tokens[4]);
-
-                    pers.addPerson(agenda, work);
                 }
                 i++;
             }

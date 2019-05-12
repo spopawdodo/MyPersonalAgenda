@@ -139,7 +139,7 @@ public class WriteToCsv {
                 fileWriter.append(COMMA_DELIMITER);
                 fileWriter.append(data.getBirthday());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data.getAdress());
+                fileWriter.append(data.getAddress());
                 fileWriter.append(NEW_LINE_SEPARATOR);
             }catch (Exception e){
                 System.out.println("No userData to write! ");
@@ -222,10 +222,10 @@ public class WriteToCsv {
     }
 
     public static void updateCsvData(String userPath, String taskPath, String familyPath, String workPath, Agenda agenda){
-        writeTasksToCsv(taskPath, agenda.getTasksArr());
+      /*  writeTasksToCsv(taskPath, agenda.getTasksArr());
         writeFamilyToCsv(familyPath, agenda.getFamilyMembers());
         writeHolderToCsv(userPath, agenda.getHolder());
         writeWorkToCsv(workPath, agenda.getWorkContacts());
-        System.out.println("Data updated succesfully!");
+        System.out.println("Data updated succesfully!");*/
     }
 }
