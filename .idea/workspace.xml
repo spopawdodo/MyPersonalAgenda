@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f91ee1d-b80f-4614-b04a-d2492ff63b52" name="Default Changelist" comment="">
+    <list default="true" id="5f91ee1d-b80f-4614-b04a-d2492ff63b52" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Family.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Family.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Family1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Family1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tasks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.csv" beforeDir="false" afterPath="$PROJECT_DIR$/User.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Work.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Work.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Work1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Work1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Agenda/Agenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Agenda/Agenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/ModificariProiectPartea2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Boss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Colleague.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/FamilyMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/FamilyMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Work.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Person/Work.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/PersonServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/TaskServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/TaskServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/csvServices/LoadCsvData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/csvServices/LoadCsvData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/csvServices/WriteToCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Servicies/csvServices/WriteToCsv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Tasks/Tasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/Tasks/Tasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/constants/ConstantValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/constants/ConstantValues.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyPersonalAgenda/output/audit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPersonalAgenda/output/audit.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Agenda/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Agenda/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModificariProiectPartea2" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextFiles/ModificariProiectPartea2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Boss.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Person/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Colleague.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/FamilyMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person/FamilyMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person/Work.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servicies/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicies/PersonServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servicies/TaskServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicies/TaskServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servicies/csvServices/LoadCsvData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicies/csvServices/LoadCsvData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Servicies/csvServices/WriteToCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicies/csvServices/WriteToCsv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Tasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/ConstantValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ConstantValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/output/audit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/audit.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="274">
+              <caret line="96" column="93" selection-start-line="96" selection-start-column="93" selection-end-line="96" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,90 +36,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Servicies/AuditServices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="initializer##0;class#AuditServices#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Work1.csv">
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Agenda/Agenda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Agenda#0;class#Agenda#0" />
-                <element signature="method#Agenda#1;class#Agenda#0" />
-                <element signature="method#Agenda#2;class#Agenda#0" />
-                <element signature="method#Agenda#4;class#Agenda#0" />
-                <element signature="method#showAgenda#0;class#Agenda#0" />
-                <element signature="method#showHolder#0;class#Agenda#0" />
-                <element signature="method#showTasks#0;class#Agenda#0" />
-                <element signature="method#showContacts#0;class#Agenda#0" />
-                <element signature="e#4037#4038#0" expanded="true" />
-                <element signature="e#4123#4124#0" expanded="true" />
-                <element signature="e#4161#4162#0" expanded="true" />
-                <element signature="e#4249#4250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tasks1.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Servicies/csvServices/LoadCsvData.java">
+        <entry file="file://$PROJECT_DIR$/src/Person/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+            <state relative-caret-position="357">
+              <caret line="32" column="137" selection-start-line="32" selection-start-column="137" selection-end-line="32" selection-end-column="137" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#loadCsvFamilyData#0;class#LoadCsvData#0" />
-                <element signature="method#loadCsvUserData#0;class#LoadCsvData#0" />
-                <element signature="method#loadCsvTasks#0;class#LoadCsvData#0" />
-                <element signature="method#loadCsvWork#0;class#LoadCsvData#0" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="method#showPerson#0;class#Client#0" />
+                <element signature="method#toString#0;class#Client#0" />
+                <element signature="method#Client#0;class#Client#0" />
+                <element signature="method#Client#1;class#Client#0" />
+                <element signature="method#equals#0;class#Client#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tasks.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -160,20 +72,73 @@
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+        <entry file="file://$PROJECT_DIR$/src/Person/Work.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Work#0;class#Work#0" />
+                <element signature="method#Work#1;class#Work#0" />
+                <element signature="method#showPerson#0;class#Work#0" />
+                <element signature="method#toString#0;class#Work#0" />
+                <element signature="method#equals#0;class#Work#0" />
+              </folding>
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Person/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Person#0;class#Person#0" />
+                <element signature="method#Person#1;class#Person#0" />
+                <element signature="method#Person#2;class#Person#0" />
+                <element signature="method#setContact#0;class#Person#0" />
+                <element signature="method#showPerson#0;class#Person#0" />
+                <element signature="method#toString#0;class#Person#0" />
+                <element signature="method#equals#0;class#Person#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servicies/csvServices/LoadCsvData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#loadCsvFamilyData#0;class#LoadCsvData#0" />
+                <element signature="method#loadCsvUserData#0;class#LoadCsvData#0" />
+                <element signature="method#loadCsvTasks#0;class#LoadCsvData#0" />
+                <element signature="method#loadCsvWork#0;class#LoadCsvData#0" />
+                <element signature="method#loadCsvData#0;class#LoadCsvData#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servicies/csvServices/WriteToCsv.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,26 +175,27 @@
         <option value="$PROJECT_DIR$/Tasks1.csv" />
         <option value="$PROJECT_DIR$/Family1.csv" />
         <option value="$PROJECT_DIR$/src/constants/ConstantValues.java" />
-        <option value="$PROJECT_DIR$/src/Servicies/csvServices/WriteToCsv.java" />
         <option value="$PROJECT_DIR$/src/Servicies/TaskServices.java" />
         <option value="$PROJECT_DIR$/src/Person/Person.java" />
         <option value="$PROJECT_DIR$/src/Person/User.java" />
-        <option value="$PROJECT_DIR$/src/Person/Work.java" />
         <option value="$PROJECT_DIR$/src/Person/FamilyMember.java" />
-        <option value="$PROJECT_DIR$/src/Person/Client.java" />
         <option value="$PROJECT_DIR$/src/output/audit.csv" />
-        <option value="$PROJECT_DIR$/src/Servicies/PersonServices.java" />
         <option value="$PROJECT_DIR$/src/Agenda/Agenda.java" />
         <option value="$PROJECT_DIR$/src/Tasks/Tasks.java" />
-        <option value="$PROJECT_DIR$/Work1.csv" />
         <option value="$PROJECT_DIR$/src/Servicies/csvServices/LoadCsvData.java" />
+        <option value="$PROJECT_DIR$/src/Servicies/PersonServices.java" />
+        <option value="$PROJECT_DIR$/src/Person/Client.java" />
+        <option value="$PROJECT_DIR$/Work.csv" />
+        <option value="$PROJECT_DIR$/Work1.csv" />
+        <option value="$PROJECT_DIR$/src/Servicies/csvServices/WriteToCsv.java" />
         <option value="$PROJECT_DIR$/src/Main/Main.java" />
+        <option value="$PROJECT_DIR$/src/Person/Work.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
-    <option name="width" value="1299" />
+    <option name="width" value="1262" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -237,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +226,18 @@
               <item name="MyPersonalAgenda" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPersonalAgenda" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPersonalAgenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPersonalAgenda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ContactData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPersonalAgenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPersonalAgenda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,6 +245,12 @@
               <item name="MyPersonalAgenda" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPersonalAgenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPersonalAgenda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Person" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyPersonalAgenda" type="b2602c69:ProjectViewProjectNode" />
@@ -297,13 +282,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557681841556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557759383617" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -373,7 +357,8 @@
       <workItem from="1557227210234" duration="5551000" />
       <workItem from="1557235134769" duration="4671000" />
       <workItem from="1557241393817" duration="4234000" />
-      <workItem from="1557663106955" duration="15150000" />
+      <workItem from="1557663106955" duration="15272000" />
+      <workItem from="1557757236042" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1554016285635</created>
@@ -396,17 +381,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554047262596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1557681859026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557681859027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71750000" />
+    <option name="totallyTimeSpent" value="73990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1039" height="840" extended-state="0" />
+    <frame x="-6" y="0" width="1009" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21041879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13909379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -415,7 +407,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.82344633" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59322035" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20480226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32402235" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,7 +417,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32485875" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.042372882" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,7 +429,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26308724" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32080537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,8 +437,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33240223" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.82344633" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3980447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32402235" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,7 +448,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.325419" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.15363128" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,13 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Colleague.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person/Colleague.java" />
     <entry file="file://$PROJECT_DIR$/src/ContactData/ContactInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -499,13 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person/Boss.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/TimSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -522,18 +502,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FamilyInfo.csv">
       <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-1326" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User1.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User1.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyPersonalAgenda.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -542,19 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="25" column="143" selection-start-line="25" selection-start-column="143" selection-end-line="25" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Family.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/ConstantValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -571,17 +538,6 @@
             <element signature="method#sortByPriority#0;class#TaskServices#0" />
             <element signature="method#sortByPriority#1;class#TaskServices#0" />
             <element signature="method#showTasks#0;class#TaskServices#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servicies/csvServices/WriteToCsv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="141" column="51" selection-start-line="141" selection-start-column="51" selection-end-line="141" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#writeWorkToCsv#0;class#WriteToCsv#0" />
           </folding>
         </state>
       </provider>
@@ -616,22 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Person#0;class#Person#0" />
-            <element signature="method#Person#1;class#Person#0" />
-            <element signature="method#Person#2;class#Person#0" />
-            <element signature="method#setContact#0;class#Person#0" />
-            <element signature="method#showPerson#0;class#Person#0" />
-            <element signature="method#toString#0;class#Person#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Person/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -640,36 +580,6 @@
             <element signature="imports" expanded="true" />
             <element signature="method#User#0;class#User#0" />
             <element signature="method#showPerson#0;class#User#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Work.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Work#0;class#Work#0" />
-            <element signature="method#Work#1;class#Work#0" />
-            <element signature="method#showPerson#0;class#Work#0" />
-            <element signature="method#toString#0;class#Work#0" />
-            <element signature="method#equals#0;class#Work#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#showPerson#0;class#Client#0" />
-            <element signature="method#toString#0;class#Client#0" />
-            <element signature="method#Client#0;class#Client#0" />
-            <element signature="method#Client#1;class#Client#0" />
-            <element signature="method#equals#0;class#Client#0" />
           </folding>
         </state>
       </provider>
@@ -690,10 +600,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/output/audit.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks/Tasks.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -709,55 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Family1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servicies/PersonServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addPerson#0;class#PersonServices#0" />
-            <element signature="method#removePerson#0;class#PersonServices#0" />
-            <element signature="method#sortByName#0;class#PersonServices#0" />
-            <element signature="method#addFamilyMember#0;class#PersonServices#0" />
-            <element signature="method#removeFamilyMember#0;class#PersonServices#0" />
-            <element signature="method#addWork#0;class#PersonServices#0" />
-            <element signature="method#removeWork#0;class#PersonServices#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Agenda/Agenda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Agenda#0;class#Agenda#0" />
-            <element signature="method#Agenda#1;class#Agenda#0" />
-            <element signature="method#Agenda#2;class#Agenda#0" />
-            <element signature="method#Agenda#4;class#Agenda#0" />
-            <element signature="method#showAgenda#0;class#Agenda#0" />
-            <element signature="method#showHolder#0;class#Agenda#0" />
-            <element signature="method#showTasks#0;class#Agenda#0" />
-            <element signature="method#showContacts#0;class#Agenda#0" />
-            <element signature="e#4037#4038#0" expanded="true" />
-            <element signature="e#4123#4124#0" expanded="true" />
-            <element signature="e#4161#4162#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Servicies/AuditServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
@@ -769,9 +630,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servicies/PersonServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addPerson#0;class#PersonServices#0" />
+            <element signature="method#removePerson#0;class#PersonServices#0" />
+            <element signature="method#sortByName#0;class#PersonServices#0" />
+            <element signature="method#removeFamilyMember#0;class#PersonServices#0" />
+            <element signature="method#addWork#0;class#PersonServices#0" />
+            <element signature="method#removeWork#0;class#PersonServices#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Agenda/Agenda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="154" column="30" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Agenda#0;class#Agenda#0" />
+            <element signature="method#Agenda#1;class#Agenda#0" />
+            <element signature="method#Agenda#2;class#Agenda#0" />
+            <element signature="method#Agenda#4;class#Agenda#0" />
+            <element signature="method#showAgenda#0;class#Agenda#0" />
+            <element signature="method#showHolder#0;class#Agenda#0" />
+            <element signature="method#showTasks#0;class#Agenda#0" />
+            <element signature="method#showContacts#0;class#Agenda#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/ConstantValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Family.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Family1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="137" selection-start-line="32" selection-start-column="137" selection-end-line="32" selection-end-column="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="method#showPerson#0;class#Client#0" />
+            <element signature="method#toString#0;class#Client#0" />
+            <element signature="method#Client#0;class#Client#0" />
+            <element signature="method#Client#1;class#Client#0" />
+            <element signature="method#equals#0;class#Client#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Work.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Work1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servicies/csvServices/WriteToCsv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="96" column="93" selection-start-line="96" selection-start-column="93" selection-end-line="96" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Servicies/csvServices/LoadCsvData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="477">
           <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -779,67 +776,40 @@
             <element signature="method#loadCsvUserData#0;class#LoadCsvData#0" />
             <element signature="method#loadCsvTasks#0;class#LoadCsvData#0" />
             <element signature="method#loadCsvWork#0;class#LoadCsvData#0" />
+            <element signature="method#loadCsvData#0;class#LoadCsvData#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Person/Work.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Work#0;class#Work#0" />
+            <element signature="method#Work#1;class#Work#0" />
+            <element signature="method#showPerson#0;class#Work#0" />
+            <element signature="method#toString#0;class#Work#0" />
+            <element signature="method#equals#0;class#Work#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tasks1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tasks.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Work.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Work1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+    <entry file="file://$PROJECT_DIR$/src/Person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Person#0;class#Person#0" />
+            <element signature="method#Person#1;class#Person#0" />
+            <element signature="method#Person#2;class#Person#0" />
+            <element signature="method#setContact#0;class#Person#0" />
+            <element signature="method#showPerson#0;class#Person#0" />
+            <element signature="method#toString#0;class#Person#0" />
+            <element signature="method#equals#0;class#Person#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
 package Servicies.csvServices;
 
 import Agenda.Agenda;
+import Person.Client;
 import Person.FamilyMember;
 import Person.User;
 import Person.Work;
@@ -15,11 +16,11 @@ public class WriteToCsv {
     private static final String FILE_HEADER_Family = "name,surname,birthday,relativeType";
     private static final String FILE_HEADER_Tasks = "task,deadline,priority";
     private static final String FILE_HEADER_User = "name,surname,birthday,address";
-    private static final String FILE_HEADER_Work = "name,surname,birthday,position,workplace";
+    private static final String FILE_HEADER_Work = "name,surname,birthday,workplace,position,company";
     private static final String COMMA_DELIMITER = ",";
     private static final String NEW_LINE_SEPARATOR = "\n";
 
-    public static void writeFamilyToCsv(String fileName, FamilyMember[] data) {
+    public static void writeFamilyToCsv(String fileName, List<FamilyMember> data) {
         FileWriter fileWriter = null;
 
 
@@ -31,10 +32,10 @@ public class WriteToCsv {
 
             //Add a new line separator after the header
             fileWriter.append(NEW_LINE_SEPARATOR);
-            int i = 0;
+            int i;
             int size;
             try{
-                size = data.length;
+                size = data.size();
             }catch (Exception e){
                 size = 0;
                 System.out.println("No familyMember data to write! ");
@@ -42,13 +43,13 @@ public class WriteToCsv {
             }
             for (i = 0; i < size ; i++) {
 
-                fileWriter.append(data[i].getName());
+                fileWriter.append(data.get(i).getName());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data[i].getSurname());
+                fileWriter.append(data.get(i).getSurname());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data[i].getBirthday());
+                fileWriter.append(data.get(i).getBirthday());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data[i].getTypeOfRelative());
+                fileWriter.append(data.get(i).getTypeOfRelative());
                 fileWriter.append(NEW_LINE_SEPARATOR);
             }
 
@@ -83,7 +84,7 @@ public class WriteToCsv {
 
             //Add a new line separator after the header
             fileWriter.append(NEW_LINE_SEPARATOR);
-            int i = 0;
+            int i;
             int size;
             try{
                 size = data.length;
@@ -166,7 +167,7 @@ public class WriteToCsv {
 
     }
 
-    public static void writeWorkToCsv(String fileName, Work[] data){
+    public static void writeWorkToCsv(String fileName, List<Work> data){
         FileWriter fileWriter = null;
 
         try {
@@ -177,10 +178,10 @@ public class WriteToCsv {
 
             //Add a new line separator after the header
             fileWriter.append(NEW_LINE_SEPARATOR);
-            int i = 0;
+            int i;
             int size;
             try{
-                size = data.length;
+                size = data.size();
             }catch (Exception e){
                 size = 0;
                 System.out.println("No workData to write! ");
@@ -188,15 +189,21 @@ public class WriteToCsv {
             }
             for (i = 0; i < size; i++) {
 
-                fileWriter.append(data[i].getName());
+                fileWriter.append(data.get(i).getName());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data[i].getSurname());
+                fileWriter.append(data.get(i).getSurname());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data[i].getBirthday());
+                fileWriter.append(data.get(i).getBirthday());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data[i].getPosition());
+                fileWriter.append(data.get(i).getWorkplace());
                 fileWriter.append(COMMA_DELIMITER);
-                fileWriter.append(data[i].getWorkplace());
+                fileWriter.append(data.get(i).getPosition());
+
+                if (data.get(i) instanceof Client){
+                    fileWriter.append(COMMA_DELIMITER);
+                    fileWriter.append(((Client) data.get(i)).getCompany());
+                }
+
                 fileWriter.append(NEW_LINE_SEPARATOR);
 
             }
@@ -222,10 +229,10 @@ public class WriteToCsv {
     }
 
     public static void updateCsvData(String userPath, String taskPath, String familyPath, String workPath, Agenda agenda){
-      /*  writeTasksToCsv(taskPath, agenda.getTasksArr());
+        writeTasksToCsv(taskPath, agenda.getTasksArr());
         writeFamilyToCsv(familyPath, agenda.getFamilyMembers());
         writeHolderToCsv(userPath, agenda.getHolder());
         writeWorkToCsv(workPath, agenda.getWorkContacts());
-        System.out.println("Data updated succesfully!");*/
+        System.out.println("Data updated succesfully!");
     }
 }

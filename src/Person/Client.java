@@ -30,7 +30,7 @@ public class Client extends Work {
     }
 
     /// CONSTRUCTOR
-    public Client(String name, String surname, String birthday, ContactInformation contactInformation, String workplace, String company, String position) {
+    public Client(String name, String surname, String birthday, ContactInformation contactInformation, String workplace, String position, String company) {
         super(name, surname, birthday, contactInformation, workplace, position);
         this.company = company;
     }

@@ -1,0 +1,34 @@
+MODIFICARI ALE PROIECTULUI IN ETAPA A 2A:
+
+1. Se renunta la utilizarea claselor Colleague , Boss ( acestea avand aceleasi tipuri de date si aceleasi functionalitati)
+   in locul acestora se va folosi clasa Work ( care s-a transformat din clasa abstracta intr-una normala)
+
+   Clasa Client va extinde in continuare clasa Work, dar numai cu variabila Company.
+
+2. S-a mai adaugat o metoda de a modifica ContactData a unei persoane (cu stringuri, pe langa cea care folosea o instanta a clasei ContactInfo).
+
+DESCRIERE ETAPA2 :
+
+1. Citire/ Scriere in fisiere CSV :
+    Am folosit pachetul csvServices ( care contine clasele LoadCsvData si WriteToCsv). Acestea cuprind aplicatii de citire/scriere pentru clasele:
+    - FamilyMember
+    - Work
+    - Tasks
+    - User
+    Toate vor fi salvate in cadrul clasei Agenda ( aplicatia principala).
+
+    OBS : datele din FamilyMember si Work sunt salvate intr-un array de tip Person ( clasa parinte). Astfel array-urle familyMemebers si workContact
+          vor ramane vide ( decat daca nu sunt adaugate date explicit )
+
+
+2. Clasa Pentru Servicii Audit:
+    Pentru serviciul de audit am folosit clasa AuditServices ( Pachetul Services).
+    Pentru a introduce in fisierul csv serviciul utilizat functia writeAuditCsv este apelata la finalul fiecarei functii din pachetul Services;
+
+// TO DO:
+Salvare date de intrare in liste ( in orice ce permite modificarea memoriei alocate)
+
+Concatenare liste pentru Persoane
+
+verificare la adaugare daca mai avem acel obiect in lista
+

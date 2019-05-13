@@ -1,2 +1,7 @@
-name,surname,birthday,position,workplace
+name,surname,birthday,workplace,position,company
 Mr,Chef,03.03.2003,Restaurant,Manager
+Mrs,Client,05.05.2019,Unibuc,Teacher
+Mrs,Manager,06.07.2018,Store,HR
+Mr,Seller,05.04.2019,Restaurant,Hr,FoodPanda
+Mr,Colleague1,01.01.2000,Restaurant,Chef
+Mr,Doctor,,Unibuc,Hospital,Pediatrician

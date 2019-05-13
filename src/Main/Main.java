@@ -25,6 +25,7 @@ public class Main {
 
         FamilyMember mom = new FamilyMember("Pop", "Cristina", "05.05.1969", defaultData,  "Mother");
         FamilyMember brother = new FamilyMember("Pop", "Ionut", "02.05.2001", defaultData, "Brother" );
+        FamilyMember cousin = new FamilyMember("Pop", "Adrian", "07.10.2004", defaultData, "Cousin" );
 
         Work manager = new Work("Mr", "Chef", "03.03.2003", defaultData, "Restaurant", "Manager");
 
@@ -80,6 +81,7 @@ public class Main {
         /// Family Tests
         //PersonServices.removeFamilyMember(agenda1, mom);
         PersonServices.addFamilyMember(agenda1,mom);
+        PersonServices.addFamilyMember(agenda1,cousin);
 
         ///Work Test
 
@@ -93,9 +95,6 @@ public class Main {
 
 
         WriteToCsv.updateCsvData("User.csv", "Tasks.csv", "Family.csv", "Work.csv", agenda1);
-        //WriteToCsv.writeFamilyToCsv("Family.csv", agenda1.getFamilyMembers());
-        //WriteToCsv.writeHolderToCsv("User.csv", agenda1.getHolder());
-        //WriteToCsv.writeTasksToCsv("Tasks.csv", agenda1.getTasksArr());
 
 
 
