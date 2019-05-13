@@ -67,8 +67,22 @@ public class AuditServices {
             fileWriter.append(actionName);
             fileWriter.append(COMMA_DELIMITER);
             fileWriter.append(df.format(date));
-            fileWriter.append(NEW_LINE_SEPARATOR);
+            fileWriter.append(COMMA_DELIMITER);
+
+            try{
+                // thread name always "main"
+                // OK ?
+                Thread t = Thread.currentThread();
+                String threadName = t.getName();
+                fileWriter.append(threadName);
+                fileWriter.append(NEW_LINE_SEPARATOR);
+
+            }catch (Exception e){
+                System.out.println("Error in printing Thread Name!");
+                e.printStackTrace();
+            }
         } catch (IOException e){
+            System.out.println("Error in writing to Audit File!");
             e.printStackTrace();
         } finally {
             try{

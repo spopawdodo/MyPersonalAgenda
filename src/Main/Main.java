@@ -90,7 +90,7 @@ public class Main {
         PersonServices.addWork(agenda1, client2);
         //PersonServices.removeWork(agenda1, client2);
 
-        agenda1.showAgenda();
+        //agenda1.showAgenda();
 
 
 
