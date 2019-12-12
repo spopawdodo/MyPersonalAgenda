@@ -2,6 +2,7 @@ package Main;
 
 import Agenda.Agenda;
 import ContactData.ContactInformation;
+import GUI.GUIForm;
 import Person.FamilyMember;
 import Person.Person;
 import Person.User;
@@ -83,7 +84,7 @@ public class Main {
         PersonServices.addFamilyMember(agenda1,mom);
         PersonServices.addFamilyMember(agenda1,cousin);
 
-        ///Work Test
+        ///Work GUIForm
 
         PersonServices.addWork(agenda1, colleague1);
         //PersonServices.removeWork(agenda1,colleague2);
@@ -96,7 +97,7 @@ public class Main {
 
         WriteToCsv.updateCsvData("User.csv", "Tasks.csv", "Family.csv", "Work.csv", agenda1);
 
-
+        GUIForm guiForm = new GUIForm(agenda1);
 
 
 
